@@ -3,6 +3,7 @@ import 'dart:math';
 import 'package:project_name/domain/exceptions/entity_validation_exception.dart';
 import 'package:project_name/domain/validations/domain_validations.dart';
 import 'package:test/test.dart';
+import 'package:uuid/uuid.dart';
 
 void main() {
   String generateRandomString(int length) {
@@ -75,6 +76,20 @@ void main() {
     final String value = generateRandomString(maxLength - 1);
 
     DomainValidation.maxLength(value, maxLength, 'fieldName');
+
+    expect(1, 1);
+  });
+
+  test('[DomainValidation.isGuid] - Deve retornar a exceção EntityValidationException caso for uma guid inválida', () {
+    const String invalidGuid = 'invalid_guid';
+
+    expect(() => DomainValidation.isGuid(invalidGuid, 'fieldName'), throwsA(isA<EntityValidationException>()));
+  });
+
+  test('[DomainValidation.isGuid] - Deve passar caso for uma guid válida', () {
+    final String validGuid = const Uuid().v4();
+
+    DomainValidation.isGuid(validGuid, 'fieldName');
 
     expect(1, 1);
   });
