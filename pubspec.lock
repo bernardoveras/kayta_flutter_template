@@ -228,6 +228,13 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.1.3"
+  result_dart:
+    dependency: "direct main"
+    description:
+      name: result_dart
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.0.0+2"
   shelf:
     dependency: transitive
     description:

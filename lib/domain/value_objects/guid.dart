@@ -1,6 +1,6 @@
-import 'package:project_name/domain/validations/domain_validations.dart';
 import 'package:uuid/uuid.dart';
 
+import '../validations/domain_validations.dart';
 
 class Guid {
   final String value;

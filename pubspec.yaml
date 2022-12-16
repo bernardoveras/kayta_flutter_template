@@ -8,6 +8,8 @@ environment:
   sdk: '>=2.18.5 <3.0.0'
 
 dependencies:
+  # Múltiplos resultados para tratar casos de sucesso e erro
+  result_dart: ^1.0.0+2
   # Geração de guids
   uuid: ^3.0.7
   flutter:

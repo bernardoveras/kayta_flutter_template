@@ -1,7 +1,7 @@
 import 'package:test/test.dart';
 
 import 'package:project_name/domain/exceptions/entity_validation_exception.dart';
-import 'package:project_name/domain/seedwork/entity.dart';
+import 'package:project_name/domain/seedworks/entity.dart';
 import 'package:project_name/domain/value_objects/guid.dart';
 
 class ExampleTestEntity extends Entity {}

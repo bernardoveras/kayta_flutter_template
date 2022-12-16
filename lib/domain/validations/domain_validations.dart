@@ -1,4 +1,4 @@
-import '../exceptions/entity_validation_exception.dart';
+import '../exceptions/exceptions.dart';
 import 'guid_validator.dart';
 
 class DomainValidation {
