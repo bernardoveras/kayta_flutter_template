@@ -1,0 +1,4 @@
+enum SearchOrder {
+  asc,
+  desc,
+}
