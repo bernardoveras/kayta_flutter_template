@@ -3,7 +3,7 @@ import 'package:test/test.dart';
 import 'package:project_name/core/extensions/string_extensions.dart';
 
 void main() {
-  test('Deve remover todos os espaços vazios da string', (){
+  test('Deve remover todos os espaços vazios da string', () {
     const String valueWithWhitespace = '   test    with    whitespace    ';
     const String expectedResult = 'testwithwhitespace';
 
@@ -24,6 +24,20 @@ void main() {
 
     for (String? value in values) {
       expect(value.isNullOrEmpty(), false);
+    }
+  });
+
+  test('Deve retornar true caso o valor só contenha números', () {
+    const String value = '123456';
+
+    expect(value.isOnlyNumber(), true);
+  });
+
+  test('Deve retornar false caso o valor não contenha só números', () {
+    final List<String?> values = ['a', ' 123 ', '  2   ', '', null];
+
+    for (String? value in values) {
+      expect(value.isOnlyNumber(), false);
     }
   });
 }

@@ -12,4 +12,12 @@ extension StringExtensions on String? {
 
     return this!.replaceAll(' ', '');
   }
+
+  bool isOnlyNumber() {
+    if (isNullOrEmpty()) return false;
+
+    final RegExp regex = RegExp(r'^-?[0-9]+$');
+
+    return regex.hasMatch(this!);
+  }
 }
