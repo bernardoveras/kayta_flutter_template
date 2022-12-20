@@ -1,6 +1,5 @@
-import 'core/bootstrap.dart';
-import 'presentation/app.dart';
+import 'package:flutter/material.dart';
 
-void main() {
-  bootstrap(() => const App());
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
 }
