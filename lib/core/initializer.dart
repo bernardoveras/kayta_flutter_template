@@ -5,7 +5,9 @@ import 'exceptions/initialization_exception.dart';
 class Initializer {
   const Initializer._();
 
-  /// Função executada antes de inicializar o aplicativo.
+  /// Function executed before initializing the application.
+  /// 
+  /// She is responsible for starting services, functions and other things that are recommended to be started before opening the application.
   static void init() {
     try {
       //
