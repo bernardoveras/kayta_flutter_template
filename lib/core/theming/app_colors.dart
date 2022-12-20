@@ -74,4 +74,10 @@ class AppColors {
   static const Color highNeutralMediumColor = Color(0xFFF2F2F2);
 
   static const Color highNeutralDarkColor = Color(0xFFCBCCCF);
+
+  static const Color surfaceColor = Color.fromARGB(255, 253, 253, 253);
+
+  static const Color lightBackgroundColor = Color.fromARGB(255, 253, 253, 253);
+
+  static const Color backgroundColor = Color.fromARGB(255, 240, 240, 240);
 }
