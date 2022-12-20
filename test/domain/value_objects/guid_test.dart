@@ -1,9 +1,9 @@
 import 'package:test/test.dart';
 import 'package:uuid/uuid.dart';
 
-import 'package:project_name/domain/exceptions/entity_validation_exception.dart';
-import 'package:project_name/domain/validations/guid_validator.dart';
-import 'package:project_name/domain/value_objects/guid.dart';
+import 'package:project_name/domain/exceptions/exceptions.dart';
+import 'package:project_name/domain/validations/validations.dart';
+import 'package:project_name/domain/value_objects/value_objects.dart';
 
 void main() {
   test('Instanciar', () {

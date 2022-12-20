@@ -1,6 +1,6 @@
 import 'package:test/test.dart';
 
-import 'package:project_name/core/extensions/string_extensions.dart';
+import 'package:project_name/core/extensions/extensions.dart';
 
 void main() {
   test('Deve remover todos os espaços vazios da string', () {

@@ -1,13 +1,10 @@
 import 'package:flutter/foundation.dart';
 
-import 'exceptions/initialization_exception.dart';
+import 'exceptions/exceptions.dart';
 
 class Initializer {
   const Initializer._();
 
-  /// Function executed before initializing the application.
-  /// 
-  /// She is responsible for starting services, functions and other things that are recommended to be started before opening the application.
   static void init() {
     try {
       //

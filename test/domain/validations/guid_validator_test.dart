@@ -1,7 +1,7 @@
 import 'package:test/test.dart';
 import 'package:uuid/uuid.dart';
 
-import 'package:project_name/domain/validations/guid_validator.dart';
+import 'package:project_name/domain/validations/validations.dart';
 
 void main() {
   test('Deve retornar true caso o guid for válido.', () async {

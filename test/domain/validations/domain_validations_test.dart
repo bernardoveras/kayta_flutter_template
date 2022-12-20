@@ -1,9 +1,10 @@
 import 'dart:math';
 
-import 'package:project_name/domain/exceptions/entity_validation_exception.dart';
-import 'package:project_name/domain/validations/domain_validations.dart';
 import 'package:test/test.dart';
 import 'package:uuid/uuid.dart';
+
+import 'package:project_name/domain/exceptions/exceptions.dart';
+import 'package:project_name/domain/validations/validations.dart';
 
 void main() {
   String generateRandomString(int length) {
