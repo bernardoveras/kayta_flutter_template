@@ -17,6 +17,7 @@ dependencies:
   # Geração de guids.
   uuid: ^3.0.7
   clock: ^1.1.1
+  get: ^4.6.5
 
 dev_dependencies:
   flutter_lints: ^2.0.0
