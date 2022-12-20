@@ -1,4 +1,0 @@
-enum SearchOrder {
-  asc,
-  desc,
-}
