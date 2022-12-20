@@ -2,7 +2,8 @@ import '../exceptions/exceptions.dart';
 import 'guid_validator.dart';
 
 /// A utility class that contains methods for validating domain entities.
-/// This class has no constructor and all methods are `static`.
+/// 
+/// This class has no constructor and all methods and variables are `static`.
 class DomainValidation {
   const DomainValidation._();
   

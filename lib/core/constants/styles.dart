@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 /// A utility class that holds all the icon sizes used throughout
 /// the entire app.
 ///
-/// This class has no constructor and all variables are `static`.
+/// This class has no constructor and all methods and variables are `static`.
 class IconSizes {
   const IconSizes._();
 
@@ -15,7 +15,7 @@ class IconSizes {
 /// A utility class that holds all the gaps and insets used
 /// throughout the entire app by things such as padding, sizedbox etc.
 ///
-/// This class has no constructor and all variables are `static`.
+/// This class has no constructor and all methods and variables are `static`.
 @immutable
 class Insets {
   const Insets._();
@@ -106,7 +106,7 @@ class Insets {
 /// A utility class that holds all the border radiuses used throughout
 /// the entire app by things such as container, card etc.
 ///
-/// This class has no constructor and all variables are `static`.
+/// This class has no constructor and all methods and variables are `static`.
 @immutable
 class Corners {
   const Corners._();

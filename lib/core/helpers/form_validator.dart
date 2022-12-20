@@ -4,7 +4,8 @@ import 'package:flutter/material.dart';
 import '../extensions/extensions.dart';
 
 /// A utility class that holds methods for validating different textFields.
-/// This class has no constructor and all methods are `static`.
+/// 
+/// This class has no constructor and all methods and variables are `static`.
 @immutable
 class FormValidator{
   const FormValidator._();

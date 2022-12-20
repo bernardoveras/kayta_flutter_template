@@ -1,7 +1,7 @@
 /// A utility class that holds all the timings used throughout
 /// the entire app by things such as animations, tickers etc.
 ///
-/// This class has no constructor and all variables are `static`.
+/// This class has no constructor and all methods and variables are `static`.
 class Durations {
   const Durations._();
 

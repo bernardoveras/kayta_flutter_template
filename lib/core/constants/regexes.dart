@@ -1,6 +1,7 @@
 /// A utility class that holds commonly used regular expressions
 /// employed throughout the entire app.
-/// This class has no constructor and all variables are `static`.
+/// 
+/// This class has no constructor and all methods and variables are `static`.
 class Regexes {
   const Regexes._();
 
