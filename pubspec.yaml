@@ -10,9 +10,9 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  # Múltiplos resultados para tratar casos de sucesso e erro
+  # Múltiplos resultados para tratar casos de sucesso e erro.
   result_dart: ^1.0.0+2
-  # Geração de guids
+  # Geração de guids.
   uuid: ^3.0.7
 
 dev_dependencies:
