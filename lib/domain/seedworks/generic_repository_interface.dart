@@ -3,6 +3,7 @@ import 'package:result_dart/result_dart.dart';
 import '../value_objects/value_objects.dart';
 import 'seedworks.dart';
 
+/// Generic repository with methods to create a CRUD.
 abstract class IGenericRepositoryInterface<TEntity extends Entity> extends IRepositoryInterface {
   AsyncResult<TEntity, Exception> find(Guid id);
   AsyncResult<TEntity, Exception> insert(TEntity entity);

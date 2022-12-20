@@ -1,5 +1,6 @@
 import '../value_objects/guid.dart';
 
+/// Seedwork that entities that have Id inherit.
 abstract class Entity {
   late Guid _id;
   Guid get id => _id;
@@ -8,9 +9,9 @@ abstract class Entity {
     generateNewIdentifier();
   }
 
-  /// Altera o id da entidade.
+  /// Change the entity id.
   void changeIdentifier(String id) => _id = Guid(id);
 
-  /// Gera um novo guid e altera o id da entidade.
+  /// Generates a random guid and changes the entity id.
   void generateNewIdentifier() => _id = Guid.generate();
 }
