@@ -1,3 +1,5 @@
+import '../constants/regexes.dart';
+
 /// A utility with extensions for strings.
 extension StringExtensions on String? {
   /// An extension to validate String is empty or null.
@@ -23,5 +25,11 @@ extension StringExtensions on String? {
     final RegExp regex = RegExp(r'^-?[0-9]+$');
 
     return regex.hasMatch(this!);
+  }
+
+  bool isValidEmail() {
+    if (isNullOrEmpty()) return false;
+    
+    return Regexes.emailRegex.hasMatch(this!);
   }
 }
