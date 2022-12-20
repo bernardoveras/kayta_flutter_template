@@ -1,5 +1,6 @@
-import 'core/initializer.dart';
+import 'core/bootstrap.dart';
+import 'presentation/app.dart';
 
 void main() {
-  Initializer.init();
+  bootstrap(() => const App());
 }
